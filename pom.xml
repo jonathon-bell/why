@@ -33,6 +33,11 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.dockfx</groupId>
+      <artifactId>dockfx</artifactId> 
+      <version>0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>owl-core</artifactId> 
       <version>1.0.0-SNAPSHOT</version>
