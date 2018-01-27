@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><!--
+
 //**************************** Copyright © Jonathon Bell. All rights reserved.
 //*
 //*
 //*  Version : $Header:$
 //*
 //*
-//*  Purpose : A disposable javafx desktop application for testing out ideas.
+//*  Purpose : A disposable JavaFX desktop application for testing out ideas.
 //*
 //*
 //*  Comments: This file uses a tab size of 2 spaces.
 //*                                                                     0-0
 //*                                                                   (| v |)
 //**********************************************************************w*w***-->
+
 <project xmlns=             "http://maven.apache.org/POM/4.0.0" 
          xmlns:xsi=         "http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
