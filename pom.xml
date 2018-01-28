@@ -48,6 +48,10 @@
 
   <dependencies>
     <dependency>
+      <groupId>com.wolery</groupId>
+      <artifactId>nest</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.dockfx</groupId>
       <artifactId>dockfx</artifactId> 
       <version>0.1-SNAPSHOT</version>
