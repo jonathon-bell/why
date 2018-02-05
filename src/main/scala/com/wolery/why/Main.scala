@@ -19,7 +19,7 @@ import java.io.IOException
 import java.nio.file.{Files, Paths}
 import java.util.Random
 
-import org.dockfx.{DockNode, DockPane, DockPos}
+import fx.dock._
 
 import javafx.scene.Scene
 import javafx.scene.control.{Tab, TabPane, TableColumn, TableView, TreeItem, TreeView}
