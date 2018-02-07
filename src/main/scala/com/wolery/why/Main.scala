@@ -16,7 +16,7 @@ package com.wolery
 package why
 
 import com.wolery.fx.dock.{ DockNode, DockPane, DockPos }
-import com.wolery.owl.gui.util.Application
+import com.wolery.fx.util.Application
 
 import javafx.scene.Scene
 import javafx.scene.control.{ TreeItem, TreeView }

@@ -51,11 +51,6 @@
       <groupId>com.wolery</groupId>
       <artifactId>nest</artifactId>
     </dependency>
-    <dependency>
-      <groupId>com.wolery</groupId>
-      <artifactId>owl-gui</artifactId> 
-      <version>1.0.0-SNAPSHOT</version>
-    </dependency>
   </dependencies>
 
   <build>
