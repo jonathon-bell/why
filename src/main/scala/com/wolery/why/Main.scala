@@ -26,7 +26,7 @@ object Main extends fx.util.Application
   def start(stage: Stage): Unit =
   {
      stage.setScene(new Scene(new Group(new Circle(40,40,30)),400,300))
-     stage.setTitle("My Application")
+     stage.setTitle("Why")
      stage.show()
   }
 }
