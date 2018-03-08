@@ -13,6 +13,6 @@
 #**                                                                   (| v |)
 #***********************************************************************w*w***
 
-cat etc/launch.sh target/why-*.jar > why && chmod +x why
+cat etc/launch.sh target/why-*.jar > target/why && chmod +x target/why
 
 #*****************************************************************************
