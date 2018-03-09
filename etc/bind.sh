@@ -5,7 +5,7 @@
 #**  Version : $Header:$
 #**
 #**
-#**  Purpose : Binds the executable JAR to its launcher script. 
+#**  Purpose : Packages the executable JAR as a self contained application. 
 #**
 #**
 #**  Comments: This file uses a tab size of 3 spaces.
@@ -13,6 +13,23 @@
 #**                                                                   (| v |)
 #***********************************************************************w*w***
 
-cat etc/launch.sh target/why-*.jar > target/why && chmod +x target/why
+jar=$(basename $(ls -1 target/why*.jar))                 # The executable jar
+
+if [[ -d target/Owl.app ]]                               # Does target exist?
+then
+  rm -rf target/Owl.app                                  # ...then remove it
+fi
+
+javapackager                                             \
+  -deploy                                                \
+  -srcdir       target                                   \
+  -outdir       target                                   \
+  -native       image                                    \
+  -srcfiles     $jar                                     \
+  -outfile      Why                                      \
+  -name         Why                                      \
+  -title        Why                                      \
+  -appclass     com.wolery.why.Main                      \
+  -Bicon=src/main/resources/why.icns
 
 #*****************************************************************************
