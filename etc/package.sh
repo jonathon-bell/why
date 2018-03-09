@@ -15,9 +15,9 @@
 
 jar=$(basename $(ls -1 target/why*.jar))                 # The executable jar
 
-if [[ -d target/Owl.app ]]                               # Does target exist?
+if [[ -d target/Why.app ]]                               # Does target exist?
 then
-  rm -rf target/Owl.app                                  # ...then remove it
+  rm -rf target/Why.app                                  # ...then remove it
 fi
 
 javapackager                                             \
