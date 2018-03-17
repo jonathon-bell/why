@@ -32,7 +32,7 @@ javapackager                                             \
   -outfile      Why                                      \
   -name         Why                                      \
   -title        Why                                      \
-  -appclass     com.wolery.why.Main                      \
+  -appclass     com.wolery.why.why                       \
   -Bicon=src/main/resources/why.icns
 
 #*****************************************************************************
