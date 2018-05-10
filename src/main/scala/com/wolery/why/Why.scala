@@ -15,6 +15,8 @@
 package com.wolery
 package why
 
+//****************************************************************************
+
 import javafx.scene.{Group,Scene}
 import javafx.scene.shape.Circle
 import javafx.stage.Stage
