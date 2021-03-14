@@ -73,10 +73,10 @@
         <artifactId>maven-shade-plugin</artifactId>
       </plugin>
 
-      <plugin>
+      <!-- <plugin> TODO JDK15
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
-      </plugin>
+      </plugin> -->
     </plugins>
   </build>
 </project>
